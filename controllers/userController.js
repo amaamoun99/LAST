@@ -87,21 +87,6 @@ export const registerUser = async (req, res) => {
     res.status(500).json({ message: 'Registration failed', error: error.message });
   }
 };
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Login User (Teacher or Student)
 export const loginUser = async (req, res) => {
